@@ -10,7 +10,7 @@ fun main() {
     var searchedUsersListNoDup = searchedUsersList.distinct()
     addAlphabet()
     while (appActive) {
-        println("recently checked users $searchedUsersListNoDup")
+        println("recently checked  users $searchedUsersListNoDup")
 
         val userSuggestionController: SuggestionController<User> = UserSuggestionController()
         var searchedUsers = userSuggestionController.search()
